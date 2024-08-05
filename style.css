@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: lavender;
+}
+nav {
+    background-color: blueviolet;
+    color: wheat;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: lightgoldenrodyellow;
+    text-decoration: none;
+}
+
+h1, h2 {
+    color: rgb(6, 8, 27);
+    text-align: center;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: beige;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+#survey {
+    background-color:rgba(147, 147, 89, 0.892);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: rgb(17, 195, 43);
+    color: lemonchiffon;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: chocolate;
+}
